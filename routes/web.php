@@ -18,3 +18,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/clubs', 'ClubsController@index')->name('clubs');
+Route::post('/club', 'ClubsController@store')->name('add-club');
