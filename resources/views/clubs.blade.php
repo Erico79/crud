@@ -49,7 +49,7 @@
                                     <button class="btn btn-sm btn-warning"><i class="fa fa-edit"></i> Edit</button>
                                     <button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> Delete</button>
                                     <a href="{{ url('club/attach/'. $club->id) }}" class="btn btn-info btn-sm">
-                                    <i class="fa fa-paperclip"></i> Add Players</a>
+                                    <i class="fa fa-user"></i> Manage Players</a>
                                 </td>
                             </tr>
                         @endforeach

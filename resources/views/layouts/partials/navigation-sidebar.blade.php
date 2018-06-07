@@ -13,7 +13,7 @@
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
           <a class="nav-link" href="{{ route('clubs') }}">
-            <i class="fa fa-fw fa-area-chart"></i>
+            <i class="fa fa-fw fa-list"></i>
             <span class="nav-link-text">Clubs</span>
           </a>
         </li>
